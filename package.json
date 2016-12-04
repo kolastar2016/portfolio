@@ -17,9 +17,12 @@
   },
   "homepage": "https://github.com/kolastar2016/portfolio#readme",
   "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "bootstrap-sass": "^3.3.7",
     "del": "^2.2.2",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",
+    "gulp-minify-css": "^1.2.4",
     "gulp-sass": "^2.3.2",
     "gulp-size": "^2.1.0",
     "gulp-sourcemaps": "^1.9.1",
