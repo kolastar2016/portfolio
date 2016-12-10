@@ -13,7 +13,7 @@
     cursor: pointer;
 
     &:hover {
-      color: prime;
+      color: $prime;
     }
 
     @media (max-width: screen-sm){
@@ -99,6 +99,6 @@ section {
 
   .service-description {
     font-size: 1.6rem;
-    color: gray;
+    color: $gray;
   }
 }

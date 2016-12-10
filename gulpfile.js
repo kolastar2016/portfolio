@@ -38,7 +38,7 @@ gulp.task('sass:prod', function () {
     return gulp.src(paths.scss)
         .pipe(sass({
             outputStyle: 'compressed'
-        }))
+        }).on('error', sass.logError))
         .pipe(gulp.dest(paths.cssdir));
 });
 gulp.task('js:dev', function () {
