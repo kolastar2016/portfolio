@@ -8,7 +8,7 @@
 
   .hamburger {
     color: #fff;
-    font-size: 2rem;
+    font-size: 3rem;
     display: none;
     cursor: pointer;
 
@@ -21,8 +21,8 @@
     }
   }
 
-  header {
-    padding-top: 4rem;
+     header {
+       padding-top: 4rem;
 
     @media (max-width: screen-md){
       padding-top: 2rem;
@@ -102,3 +102,13 @@ section {
     color: $gray;
   }
 }
+// page About me style
+.aboutMy {
+    background-image: url("../../img/bg/bg-John.jpg");
+    background-repeat: repeat-y;
+    background-size: contain;
+    background-position: centre;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 30rem;
+    }
