@@ -20,6 +20,29 @@
 
 }
 
+%btn-work {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  color: $prime;
+  background: transparent;
+  padding: 1.5rem 3rem;
+  border: 2px solid $prime;
+  width: auto;
+  border-radius: 4rem;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  display: inline-block;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+
+  @media (max-width: screen-xs){
+    width: 100%;
+  }
+
+}
+
+
 .btn-prime {
   @extend %btn;
   background: $prime;
@@ -56,4 +79,13 @@
 
 .btn-large {
   padding: 1.9rem 5.1rem;
+}
+.btn-mywork {
+ @extend %btn-work;
+
+  &:hover {
+    background: $prime;
+    color: #fff;
+  } 
+
 }
