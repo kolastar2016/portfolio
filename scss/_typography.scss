@@ -45,6 +45,14 @@ body {
   font-size: 1.4rem;
 }
 
+.h8 {
+ font-size: 1.1rem; 
+}
+
+.h9 {
+  font-size: 1rem; 
+}
+
 p {
   font-family: "Open Sans";
   font-size: 1.8rem;
@@ -52,15 +60,24 @@ p {
 
 a {
   font-family: "Open Sans";
-  font-size: 1.8rem;
-  color: $green;
-  text-decoration: underline;
-
+  font-size: 1rem;
+  color: grey;
+  
   &:hover {
     text-decoration: none;
-    color: $green;
+    color: green;
+    text-decoration: underline;
   }
 }
+
+span {
+
+   &:hover {
+    color: white;
+    
+  }
+}
+
 .h7{
   
   font-weight: bold; 
