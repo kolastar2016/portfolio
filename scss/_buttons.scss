@@ -42,14 +42,15 @@
 
 }
 
-
 .btn-prime {
   @extend %btn;
-  background: $prime;
+  color: $prime;
+  background: #fff;
   border: 2px solid $prime;
 
   &:hover {
-    background: $primeShade;
+    background: $prime;
+    color: #fff;
   }
 }
 
@@ -59,7 +60,9 @@
   border: 2px solid $second;
 
   &:hover {
-    background: $secondShade;
+   border: 2px solid #fff;
+    background: #fff;
+    color: $second;
   }
 }
 
@@ -68,13 +71,15 @@
 
   &:hover {
     background: #fff;
-    color: #000;
+    color: $prime;
   }
 }
 
 .btn-small {
   padding: 1rem 2rem;
-  font-size: 1.3rem;
+  font-size: 1rem;
+ 
+ 
 }
 
 .btn-large {
@@ -88,4 +93,26 @@
     color: #fff;
   } 
 
+}
+
+// modal icon
+.btn-outline-m {
+  @extend %btn-work;
+
+  &:hover {
+    background: $prime;
+    color: #fff;
+  }
+}
+
+.btn-second-m {
+  @extend %btn;
+  color: $second;
+  border: 2px solid $second;
+
+  &:hover {
+   border: 2px solid $second;
+    background: $second;
+    color: #fff;
+  }
 }

@@ -26,6 +26,9 @@
   float: right;
 }
 
+.pull-center {
+  float: center;
+}
 .cf {
   &:after {
     content: '';
@@ -105,7 +108,11 @@
     color: $second;
   }
 }
-
+.grey{
+  &.grey{
+    color: grey;
+  }
+}
 // Background Colors
 // -------------------------
 
@@ -124,6 +131,11 @@
 .bg-prime {
   &.bg-prime {
     background-color: $prime;
+
+      &:hover {
+    background-color: $second;
+    
+  }
   }
 }
 
@@ -169,9 +181,15 @@
 .mb-4 {
   margin-bottom: 4rem;
 }
-
+.mb-5 {
+  margin-bottom: 5rem;
+}
 .mb-10 {
   margin-bottom: 10rem;
+}
+
+.mbl-5{
+  margin-left: 5rem;
 }
 .mbl-6{
   margin-left: 6rem;
@@ -181,4 +199,35 @@
 }
 .mbl-11{
   margin-left: 28rem;
+}
+mt-5{
+  margin-top: 5rem;
+}
+
+//modal body and headers
+
+.modal-body {
+    border-radius: 1rem;
+    background-color: #fff;
+    height: 5.5rem;
+}
+
+.modalbody {
+    background-color: #fff;
+    height: 19rem;
+}
+
+.modal-content {
+    background-color: transparent;
+}
+
+.modal-header
+{
+    border-top-left-radius: 6rem;
+   -webkit-border-top-left-radius: 6rem;
+   
+}
+.lineh {
+
+line-height: 5rem
 }
