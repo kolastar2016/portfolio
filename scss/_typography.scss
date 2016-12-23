@@ -42,7 +42,7 @@ body {
 }
 
 .h6 {
-  font-size: 1.4rem;
+  font-size: 1.25rem;
 }
 
 .h8 {
@@ -65,24 +65,30 @@ a {
   
   &:hover {
     text-decoration: none;
-    color: green;
-    text-decoration: underline;
+    color: while;
+    border-bottom: 0.1rem solid $prime;
   }
 }
 
 span {
-
-   &:hover {
-    color: white;
-    
-  }
+      position:relative;
+      top:-0.9rem;
+          &:hover {
+          color: white;
+            }
 }
 
-.h7{
-  
-  font-weight: bold; 
+hr {
+  border: none;
+  background-color: $prime; 
+  height: 0.1rem; 
+  width: 2.9rem;
 }
-.h10{
-  
-  font-size: 0.6rem;
+
+.h7 {
+    font-weight: bold; 
+}
+
+.h10 {
+   font-size: 0.6rem;
 }
