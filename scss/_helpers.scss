@@ -18,6 +18,7 @@
 
 // Float
 // ---------------------------
+
 .pull-left {
   float: left;
 }
@@ -29,6 +30,7 @@
 .pull-center {
   float: center;
 }
+
 .cf {
   &:after {
     content: '';
@@ -77,9 +79,9 @@
 }
 
 .mobile-text-center {
-  @media (max-width: 992px) {
-    text-align: center;
-  }
+      @media (max-width: 992px) {
+        text-align: center;
+        }
 }
 
 // Colors
@@ -108,11 +110,14 @@
     color: $second;
   }
 }
+
 .grey{
   &.grey{
     color: grey;
   }
 }
+
+
 // Background Colors
 // -------------------------
 
@@ -131,12 +136,10 @@
 .bg-prime {
   &.bg-prime {
     background-color: $prime;
-
-      &:hover {
-    background-color: $second;
-    
-  }
-  }
+        &:hover {
+       background-color: $second;
+                 }
+             }
 }
 
 .bg-second {
@@ -188,20 +191,28 @@
   margin-bottom: 10rem;
 }
 
-.mbl-5{
+.mbl-5 {
   margin-left: 5rem;
 }
-.mbl-6{
+
+.mbl-6 {
   margin-left: 6rem;
 }
-.mbl-10{
+
+.mbl-10 {
   margin-left: 10rem;
 }
-.mbl-11{
+
+.mbl-11 {
   margin-left: 28rem;
 }
-mt-5{
+
+.mt-5 {
   margin-top: 5rem;
+}
+
+.mt-2 {
+  margin-top: 2rem;
 }
 
 //modal body and headers
@@ -221,13 +232,10 @@ mt-5{
     background-color: transparent;
 }
 
-.modal-header
-{
-    border-top-left-radius: 6rem;
-   -webkit-border-top-left-radius: 6rem;
-   
+.lh {
+    line-height: 1.5;
 }
-.lineh {
 
-line-height: 5rem
+.lineh {
+    line-height: 5rem
 }

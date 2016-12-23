@@ -14,10 +14,9 @@
   cursor: pointer;
   text-align: center;
 
-  @media (max-width: screen-xs){
-    width: 100%;
-  }
-
+      @media (max-width: $screen-xs){
+        width: 100%;
+        }
 }
 
 %btn-work {
@@ -36,10 +35,9 @@
   cursor: pointer;
   text-align: center;
 
-  @media (max-width: screen-xs){
-    width: 100%;
-  }
-
+      @media (max-width: $screen-xs){
+        width: 100%;
+        }
 }
 
 .btn-prime {
@@ -47,72 +45,75 @@
   color: $prime;
   background: #fff;
   border: 2px solid $prime;
-
-  &:hover {
-    background: $prime;
-    color: #fff;
-  }
+      &:hover {
+        background: $prime;
+        color: #fff;
+        }
 }
 
 .btn-second {
   @extend %btn;
   background: $second;
   border: 2px solid $second;
+      &:hover {
+      border: 2px solid #fff;
+      background: #fff;
+      color: $second;
+      }
+}
 
-  &:hover {
-   border: 2px solid #fff;
-    background: #fff;
-    color: $second;
-  }
+.btn-second-git {
+  @extend %btn;
+  background: $second;
+  border: 2px solid $second;
+         &:hover {
+        border: 2px solid $second;
+        background: #fff;
+      color: $second;
+      }
 }
 
 .btn-outline {
-  @extend %btn;
-
-  &:hover {
-    background: #fff;
-    color: $prime;
-  }
+    @extend %btn;
+        &:hover {
+          background: #fff;
+          color: $prime;
+           }
 }
 
 .btn-small {
   padding: 1rem 2rem;
   font-size: 1rem;
- 
- 
 }
 
 .btn-large {
   padding: 1.9rem 5.1rem;
 }
+
 .btn-mywork {
  @extend %btn-work;
-
-  &:hover {
-    background: $prime;
-    color: #fff;
-  } 
-
+      &:hover {
+        background: $prime;
+       color: #fff;
+       } 
 }
 
 // modal icon
 .btn-outline-m {
-  @extend %btn-work;
-
-  &:hover {
-    background: $prime;
-    color: #fff;
-  }
+    @extend %btn-work;
+          &:hover {
+        background: $prime;
+          color: #fff;
+        }
 }
 
 .btn-second-m {
-  @extend %btn;
-  color: $second;
-  border: 2px solid $second;
-
-  &:hover {
-   border: 2px solid $second;
-    background: $second;
-    color: #fff;
-  }
+    @extend %btn;
+    color: $second;
+      border: 2px solid $second;
+            &:hover {
+            border: 2px solid $second;
+            background: $second;
+            color: #fff;
+            }
 }

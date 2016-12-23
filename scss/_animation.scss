@@ -1,0 +1,52 @@
+//----------------
+//animation for My Work
+//---------------
+
+
+.card-container {
+  height: 19rem;
+  perspective: 600;
+  position: relative;
+  width: 26.3rem;
+}
+
+.card {
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+  width: 100%;
+}
+
+.card:hover {
+ background-color: #e98e19;
+  color: #fff;
+  transform: rotateY(180deg);
+}
+
+.card .side {
+  backface-visibility: hidden;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+.card .back {
+  transform: rotateY(180deg);
+ }
+
+ .btnmw {
+  font-size: 1rem;
+  color: white;
+  background: #e98e19;
+  padding: 1.4rem 4rem;
+  border: 2px solid white;
+  width: auto;
+  border-radius: 4rem;
+  margin: 4rem 4rem;
+  margin-bottom: 2rem;
+  display: inline-block;
+  font-weight: 20px;
+  cursor: pointer;
+  text-align: center;
+}
