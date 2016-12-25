@@ -193,7 +193,10 @@ section {
     background-position: centre;
     width: 25.2rem;
     height: 18.6rem;
-    }
+        &:hover {
+            background: 0;
+            }
+}
 
 .myWork7 {
     background-image: url("../../img/bg/bg-mywork7.jpg");
@@ -223,6 +226,7 @@ section {
     display: inline-block;
     border-radius: 100rem;
     box-shadow: 0rem 0rem 0.1rem #888;
+    border: 1px solid black;
         &:hover {
          display: inline-block;
         background: black;
