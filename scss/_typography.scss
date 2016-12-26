@@ -62,10 +62,11 @@ a {
   font-family: "Open Sans";
   font-size: 1rem;
   color: grey;
+
   
   &:hover {
     text-decoration: none;
-    color: while;
+    color: white;
     border-bottom: 0.1rem solid $prime;
   }
 }
