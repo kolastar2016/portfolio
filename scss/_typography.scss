@@ -62,7 +62,6 @@ a {
   font-family: "Open Sans";
   font-size: 1rem;
   color: grey;
-
   
   &:hover {
     text-decoration: none;
@@ -72,11 +71,12 @@ a {
 }
 
 span {
-      position:relative;
-      top:-0.8rem;
-          &:hover {
-          color: white;
-            }
+  position:relative;
+  top:-0.8rem;
+  
+  &:hover {
+    color: white;
+  }
 }
 
 hr {
@@ -87,9 +87,9 @@ hr {
 }
 
 .h7 {
-    font-weight: bold; 
+  font-weight: bold; 
 }
 
 .h10 {
-   font-size: 0.6rem;
+  font-size: 0.6rem;
 }

@@ -32,6 +32,7 @@
 }
 
 .cf {
+
   &:after {
     content: '';
     display: table;
@@ -79,9 +80,10 @@
 }
 
 .mobile-text-center {
-      @media (max-width: 992px) {
-        text-align: center;
-        }
+  
+  @media (max-width: 992px) {
+    text-align: center;
+  }
 }
 
 // Colors
@@ -136,10 +138,11 @@
 .bg-prime {
   &.bg-prime {
     background-color: $prime;
-        &:hover {
-       background-color: $second;
-                 }
-             }
+       
+    &:hover {
+      background-color: $second;
+    }
+  }
 }
 
 .bg-second {
@@ -184,9 +187,11 @@
 .mb-4 {
   margin-bottom: 4rem;
 }
+
 .mb-5 {
   margin-bottom: 5rem;
 }
+
 .mb-10 {
   margin-bottom: 10rem;
 }
@@ -218,32 +223,32 @@
 //modal body and headers
 
 .modal-body {
-    border-radius: 1rem;
-    background-color: #fff;
-    height: 5.5rem;
+  border-radius: 1rem;
+  background-color: #fff;
+  height: 5.5rem;
 }
 
 .modalbody {
-    background-color: #fff;
-    height: 19rem;
+  background-color: #fff;
+  height: 19rem;
 }
 
 .modal-content {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 .lh {
-    line-height: 3.7rem;
+  line-height: 3.7rem;
 }
 
 .lineh {
-    line-height: 5rem
+  line-height: 5rem
 }
 
 input:focus {
-      outline:none;
+  outline:none;
 }
 
 button  {
-      outline:none;
+  outline:none;
 }
