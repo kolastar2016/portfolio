@@ -1,3 +1,3 @@
 # portfolio
-start for me
-go
+this site
+https://kolastar2016.github.io/portfolio/
