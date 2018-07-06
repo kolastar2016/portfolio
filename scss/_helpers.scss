@@ -171,6 +171,15 @@
 }
 
 // Margins
+//--------------------------
+
+.margin-1 {
+  margin: 1rem;
+}
+
+.margin-3 {
+  margin: 3rem;
+}
 
 .mb-1 {
   margin-bottom: 1rem;
@@ -210,6 +219,14 @@
 
 .mbl-11 {
   margin-left: 28rem;
+
+  @media (max-width: $screen-xs){
+    margin-left: 0rem;
+  }
+
+  @media (max-width: $screen-sm){
+    margin-left: 8rem;
+  }
 }
 
 .mt-5 {
@@ -218,6 +235,10 @@
 
 .mt-2 {
   margin-top: 2rem;
+}
+
+.padding-0 {
+  padding: 0rem;
 }
 
 //modal body and headers
